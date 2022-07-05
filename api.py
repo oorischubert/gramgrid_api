@@ -2,9 +2,14 @@ import json
 from flask import Flask, jsonify, request
 
 FindMistakesData = [
-{'correct': 'You are not in Boston.', 'incorrect': 'You is not in boston.'},
-{'correct': 'I love reading books.', 'incorrect': 'I love read books.'},
-{'correct': 'I am very tired.', 'incorrect': 'I is very tired.'},
+{'correct':' My mother always wakes up early and goes to the gym in the morning.',
+'incorrect': 'My mother always wake up early and go to the gym at the morning.'},
+{'correct': ' Her gym is near our house. She tries to go there three times a week',
+'incorrect': 'Her gym _ near our house. She trys to go there three times a week.'},
+{'correct':' Tali does her homework and studies hard for quizzes. She _ a good student.',
+'incorrect': 'Tali do her homework and study hard for quizzes. She a good student.'},
+{'correct':' The children fly to Israel every summer. They visit their family in Haifa.',
+'incorrect': "The children's flies to israel every summer. They visits their family at haifa."}  
 ]
 
 VerbData = [
