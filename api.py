@@ -6,9 +6,9 @@ FindMistakesData = [
 'incorrect': 'My mother always wake up early and go to the gym at the morning.'},
 {'correct': ' Her gym is near our house. She tries to go there three times a week',
 'incorrect': 'Her gym _ near our house. She trys to go there three times a week.'},
-{'correct':' Tali does her homework and studies hard for quizzes. She _ a good student.',
-'incorrect': 'Tali do her homework and study hard for quizzes. She a good student.'},
-{'correct':' The children fly to Israel every summer. They visit their family in Haifa.',
+{'correct':'Tali does her homework and studies hard for quizzes. She __ a good student.',
+'incorrect': 'Tali do her homework and study hard for quizzes. She is a good student.'},
+{'correct':'The children fly to Israel every summer. They visit their family in Haifa.',
 'incorrect': "The children's flies to israel every summer. They visits their family at haifa."}  
 ]
 
