@@ -1,5 +1,6 @@
 import json
 from flask import Flask, jsonify, request
+from flask_cors import CORS, cross_origin #for web 
 
 FindMistakesData = [
 {'correct':'My mother always wakes up early and goes to the gym in the morning.',
@@ -20,8 +21,10 @@ VerbData = [
 
 # creating the instance of our flask application
 app = Flask(__name__)
+CORS(app, support_credentials=True)
 
 @app.route('/fm',methods = ['GET', 'POST'])
+@cross_origin(supports_credentials=True) #web auth
 def downloadRoute0():
     global FindMistakesData
     if(request.method == 'GET'):
@@ -34,6 +37,7 @@ def downloadRoute0():
         return ' '
 
 @app.route('/vd',methods = ['GET', 'POST'])
+@cross_origin(supports_credentials=True) #web auth
 def downloadRoute1():   
     global VerbData
     if(request.method == 'GET'):
