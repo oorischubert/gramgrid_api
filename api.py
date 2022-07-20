@@ -23,7 +23,7 @@ VerbData = [
 app = Flask(__name__)
 
 @app.route('/fm',methods = ['GET', 'POST'])
-@cross_origin(maxAge = 3600) #web auth
+#@cross_origin(maxAge = 3600) #web auth
 def downloadRoute0():
     global FindMistakesData
     if(request.method == 'GET'):
@@ -36,7 +36,7 @@ def downloadRoute0():
         return ' '
 
 @app.route('/vd',methods = ['GET', 'POST'])
-@cross_origin(maxAge = 3600) #web auth
+#@cross_origin(maxAge = 3600) #web auth
 def downloadRoute1():   
     global VerbData
     if(request.method == 'GET'):
