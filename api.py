@@ -1,6 +1,6 @@
 import json
 from flask import Flask, jsonify, request
-from flask_cors import CORS, cross_origin #for web 
+#from flask_cors import CORS, cross_origin #for web 
 
 FindMistakesData = [
 {'correct':'My mother always wakes up early and goes to the gym in the morning.',
