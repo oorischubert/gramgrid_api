@@ -16,7 +16,7 @@ FindMistakesData = [
 VerbData = [
 {'sentence': 'She ____ orange juice every morning.', 'answer' : 'drinks', 'words' : ['drink', 'drinks', 'is drinking']},
 {'sentence': 'Be quiet! The baby ____!.', 'answer' : 'is sleeping', 'words' : ['sleep', 'sleeps', 'is sleeping']},
-{'sentence': 'Sam and Joh ____ tennis every Sunday?', 'answer' : 'play', 'words' : ['plays', 'play', 'are playing']},
+{'sentence': 'Sam and John ____ tennis every Sunday?', 'answer' : 'play', 'words' : ['plays', 'play', 'are playing']},
 ]
 
 # creating the instance of flask application
