@@ -14,12 +14,12 @@ FindMistakesData = [
 ]
 
 VerbData = [
-{'sentence': 'She ____ them.', 'answer' : 'likes', 'words' : ['likes', 'like', 'liked']},
-{'sentence': 'It ____ tall.', 'answer' : 'is', 'words' : ['has', 'were', 'is']},
-{'sentence': 'who ____ it?', 'answer' : 'ate', 'words' : ['eat', 'ate', 'eating']},
+{'sentence': 'She ____ orange juice every morning.', 'answer' : 'drinks', 'words' : ['drink', 'drinks', 'is drinking']},
+{'sentence': 'Be quiet! The baby ____!.', 'answer' : 'is sleeping', 'words' : ['sleep', 'sleeps', 'is sleeping']},
+{'sentence': 'Sam and Joh ____ tennis every Sunday?', 'answer' : 'play', 'words' : ['plays', 'play', 'are playing']},
 ]
 
-# creating the instance of our flask application
+# creating the instance of flask application
 app = Flask(__name__)
 #CORS(app)
 
